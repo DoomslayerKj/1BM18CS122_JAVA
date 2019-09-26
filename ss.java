@@ -36,7 +36,7 @@ class ss
     public static void main(String args[])
     {   Scanner sc=new Scanner(System.in);
         int a,b;
-        System.out.println("Enter 1 for Rectangle 2 for Triangle 3 for Circle \n");
+        System.out.println("Enter 1 for Rectangle 2 for Triangle 3 for Circle , Anthing else for Exit!!\n");
         int ch=sc.nextInt();
         
         switch(ch)
@@ -60,7 +60,7 @@ class ss
                    
                    circle c1=new circle();
                    c1.printarea(a);break;
-        default:   System.out.println("Wrong choice, EXiting... \n");
+        default:   System.out.println("EXiting... \n");System.exit(0);
                    
         }
         
